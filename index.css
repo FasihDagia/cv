@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color:#cdccd440;
+    --text-primary: rgb(88, 87, 90);
+    --text-secondry: rgb(124, 123, 127);
+    --border: solid 2px rgba(114, 114, 114, 0.533);
+}
+
+#top{
+    height: auto;
+    background: var(--primary-color);
+    border-bottom: var(--border);
+}
+#perinfo{
+    display: flex;
+    align-items: center;
+    margin-left: 119px;
+}
+
+#perinfo img {
+    width: 200px;
+    margin: 35px;
+    margin-left: 240px;
+    margin-bottom: 0;
+}
+#picname{
+    display: flex;
+    flex-direction: column;
+}
+#picname span{
+    font-weight: bolder;
+    font-size: xxx-large;
+    color:var(--text-primary);
+    margin-left: 204px;
+    padding-bottom: 25px;
+}
+#jobrole{
+    display: flex;
+    flex-direction: column;
+}
+#role{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 190px;
+    color: var(--text-primary);
+}
+#roledes{
+    margin-left: 190px;
+    font-size: large;
+    font-weight: bold;
+    color: var(--text-secondry);
+}
