@@ -40,9 +40,9 @@
 }
 
 #perinfo img {
-    width: 200px;
+    width: 175px;
     margin: 35px;
-    margin-left: 240px;
+    margin-left: 256px;
     margin-bottom: 0;
 }
 
@@ -54,7 +54,6 @@
 #picname span {
     font-weight: bolder;
     font-size: xxx-large;
-    color: ;
     margin-left: 248px;
     padding-bottom: 25px;
 }
@@ -84,6 +83,9 @@
 #cvsum1{
     font-size: larger;
     margin-left: 190px;
+}
+#content{
+    display: flex;
 }
 #left {
     width: 50vw;
@@ -134,4 +136,52 @@
     font-size: 25px;
     font-weight: 400;
     padding-bottom: 150px;
+}
+#right{
+    width: 50vw;
+    height: auto;
+    background-color: var(--secondry-color);
+    /* border-right: var(--border); */
+}
+#edu{
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 70px 0px 30px 100px;
+}
+#edu1{
+    font-size: large;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: 400;
+    list-style-type: none;
+    padding-bottom: 10px;   
+}
+#certificate{
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 70px 0px 30px 100px;
+}
+#certificate1{
+    font-size: large;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: 400;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+#ref{
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 125px 0px 30px 100px;
+}
+#ref1{
+    font-size: large;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: 400;
+    list-style-type: none;
+    padding-bottom: 10px;
 }
