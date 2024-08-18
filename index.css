@@ -6,19 +6,34 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-:root{
-    --primary-color:#cdccd440;
-    --text-primary: rgb(88, 87, 90);
-    --text-secondry: rgb(124, 123, 127);
-    --border: solid 2px rgba(114, 114, 114, 0.533);
+
+:root {
+    --primary-color: #f8f8f8;
+    --secondry-color: #ededed;
+    --border: solid 3px rgba(89, 88, 88, 0.56);
 }
 
-#top{
+#cvtem {
+    background-color: #597b6a;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cvtemp {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+#top {
     height: auto;
     background: var(--primary-color);
     border-bottom: var(--border);
 }
-#perinfo{
+
+#perinfo {
     display: flex;
     align-items: center;
     margin-left: 119px;
@@ -30,30 +45,93 @@
     margin-left: 240px;
     margin-bottom: 0;
 }
-#picname{
+
+#picname {
     display: flex;
     flex-direction: column;
 }
-#picname span{
+
+#picname span {
     font-weight: bolder;
     font-size: xxx-large;
-    color:var(--text-primary);
-    margin-left: 204px;
+    color: ;
+    margin-left: 248px;
     padding-bottom: 25px;
 }
-#jobrole{
+
+#jobrole {
     display: flex;
     flex-direction: column;
 }
-#role{
+
+#role {
     font-weight: bolder;
     font-size: xx-large;
     margin-left: 190px;
     color: var(--text-primary);
 }
-#roledes{
+#role1{
+    font-size: larger;
     margin-left: 190px;
-    font-size: large;
+}
+
+#cvsum{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+#cvsum1{
+    font-size: larger;
+    margin-left: 190px;
+}
+#left {
+    width: 50vw;
+    height: auto;
+    background-color: var(--secondry-color);
+    border-right: var(--border);
+}
+
+#proexp1 {
+    font-size: xx-large;
     font-weight: bold;
-    color: var(--text-secondry);
+    display: block;
+    padding-top:70px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+#profexp1{
+    font-size: x-large;
+    display: block;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+#profexpe1{
+    font-size: larger;
+    padding-top: 20px;
+    padding-left: 100px;
+
+}
+#profexper1{
+    padding-top: 10px;
+    padding-left: 130px;
+    padding-bottom: 40px;
+    font-size: large;
+}
+#skill{
+    font-size: xx-large;
+    font-weight: bold;
+    display: block;
+    padding-top:70px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+#skill1{
+    padding-top: 10px;
+    padding-left: 170px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 150px;
 }
