@@ -185,3 +185,80 @@
     list-style-type: none;
     padding-bottom: 10px;
 }
+@media only screen and (max-width: 600px) {
+    :root {
+        --primary-color: #f8f8f8;
+        --secondry-color: #ededed;
+        --border: solid 3px rgba(89, 88, 88, 0.56);
+    }
+    
+    #cvtem {
+        background-color: #597b6a;
+        height: 18vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #cvtemp {
+        font-size: 50px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #top {
+        height: auto;
+        background: var(--primary-color);
+        border-bottom: var(--border);
+    }
+    #perinfo {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    #perinfo img {
+        width: 100px;
+        margin: 50px;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    
+    #picname {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #picname span {
+        font-weight: bolder;
+        font-size: x-large;
+        margin-left: 53px;
+        padding-bottom: 25px;
+    }
+    #jobrole {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #role {
+        font-weight: bolder;
+        font-size: larger;
+        margin-left: 70px;
+        color: var(--text-primary);
+    }
+     #role1{
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    
+    #cvsum{
+        font-size: larger;
+        font-weight: bolder;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    #cvsum1{
+        font-size: 15px;
+        margin-left: 70px;
+    }
+}
