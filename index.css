@@ -202,7 +202,7 @@
     padding-bottom: 10px;
 }
 
-@media (min-width: 321px) and  (max-width: 480px) {
+@media   (max-width: 480px) {
     :root {
         --primary-color: #f8f8f8;
         --secondry-color: #ededed;
@@ -216,80 +216,81 @@
         align-items: center;
         justify-content: center;
     }
+
     #cvtemp {
         font-size: 40px;
         font-weight: bolder;
         color: white;
     }
-    
+
     #top {
         height: auto;
         background: var(--primary-color);
         border-bottom: var(--border);
     }
-    
+
     #perinfo {
         display: flex;
         flex-direction: column;
         margin-left: 0px;
     }
-    
+
     #picname {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    
+
     #perinfo img {
         width: 100px;
         margin: 35px;
         margin-bottom: 0;
     }
-    
-    
+
+
     #picname span {
         font-weight: bolder;
         font-size: x-large;
         margin-left: 3px;
         padding-bottom: 15px;
     }
-    
+
     #jobrole {
         display: flex;
         align-items: center;
     }
-    
+
     #role {
         font-weight: bolder;
         font-size: larger;
         margin-left: 0px;
         color: var(--text-primary);
     }
-    
+
     #role1 {
         font-size: 15px;
         margin-left: 0px;
     }
-    
+
     #cvsum {
         font-size: larger;
         font-weight: bolder;
         margin-left: 0px;
         margin-top: 20px;
     }
-    
+
     #cvsum1 {
         font-size: 11px;
         margin-left: 0px;
         padding-bottom: 15px;
     }
-    
+
     #content {
         display: flex;
         flex-direction: column;
     }
-    
+
     #left {
         display: flex;
         flex-direction: column;
@@ -298,7 +299,7 @@
         background-color: var(--secondry-color);
         border-bottom: var(--border);
     }
-    
+
     #proexp1 {
         font-size: larger;
         font-weight: bold;
@@ -306,7 +307,7 @@
         padding-left: 50px;
         padding-bottom: 20px;
     }
-    
+
     #profexp1 {
         font-size: large;
         display: block;
@@ -314,20 +315,20 @@
         padding-left: 75px;
         font-weight: bold;
     }
-    
+
     #profexpe1 {
         font-size: 15px;
         padding-top: 10px;
         padding-left: 75px;
     }
-    
+
     #profexper1 {
         padding-top: 10px;
         padding-left: 91px;
         padding-bottom: 20px;
         font-size: 13px;
     }
-    
+
     #skill {
         font-size: 22px;
         font-weight: bold;
@@ -336,7 +337,7 @@
         padding-left: 75px;
         padding-bottom: 10px;
     }
-    
+
     #skill1 {
         padding-top: 10px;
         padding-left: 93px;
@@ -345,14 +346,14 @@
         font-weight: 400;
         padding-bottom: 70px;
     }
-    
+
     #right {
         width: 100vw;
         height: auto;
         background-color: var(--secondry-color);
         border-bottom: var(--border);
     }
-    
+
     #edu {
         font-size: 25px;
         font-weight: bold;
@@ -360,7 +361,7 @@
         padding-left: 50px;
         padding-bottom: 10px;
     }
-    
+
     #edu1 {
         font-size: 16px;
         padding-top: 15px;
@@ -369,7 +370,7 @@
         list-style-type: none;
         padding-bottom: 15px;
     }
-    
+
     #certificate {
         display: block;
         font-size: 23px;
@@ -378,7 +379,7 @@
         padding-left: 50px;
         padding-bottom: 10px;
     }
-    
+
     #certificate1 {
         font-size: 16px;
         padding-top: 15px;
@@ -387,7 +388,7 @@
         list-style-type: none;
         padding-bottom: 15px;
     }
-    
+
     #ref {
         display: block;
         font-size: 23px;
@@ -407,12 +408,13 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px){
+@media (min-width: 481px) and (max-width: 768px) {
     :root {
         --primary-color: #f8f8f8;
         --secondry-color: #ededed;
         --border: solid 3px rgba(89, 88, 88, 0.56);
     }
+
     #cvtem {
         background-color: #597b6a;
         height: 15vh;
@@ -420,72 +422,79 @@
         align-items: center;
         justify-content: center;
     }
+
     #cvtemp {
         font-size: 40px;
         font-weight: bolder;
         color: white;
     }
+
     #top {
         height: auto;
         background: var(--primary-color);
         border-bottom: var(--border);
     }
-    
+
     #perinfo {
         display: flex;
         /* flex-direction: column; */
         margin-left: 0px;
     }
-    
+
     #picname {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     #perinfo img {
         width: 120px;
         margin: 35px;
         margin-left: 125px;
         margin-bottom: 0;
     }
+
     #picname span {
         font-weight: bolder;
         font-size: 30px;
         margin-left: 89px;
         padding-bottom: 15px;
     }
+
     #jobrole {
         display: flex;
     }
-    
+
     #role {
         font-weight: bolder;
         font-size: larger;
         margin-left: 80px;
         color: var(--text-primary);
     }
+
     #role1 {
         font-size: 15px;
         margin-left: 80px;
     }
-        
+
     #cvsum {
         font-size: larger;
         font-weight: bolder;
         margin-left: 80px;
         margin-top: 30px;
     }
-        
+
     #cvsum1 {
         font-size: 14px;
         margin-left: 80px;
         padding-bottom: 15px;
     }
+
     #content {
         display: flex;
     }
-    
+
     #left {
         display: flex;
         flex-direction: column;
@@ -494,6 +503,7 @@
         background-color: var(--secondry-color);
         border-right: var(--border);
     }
+
     #proexp1 {
         font-size: 23px;
         font-weight: bold;
@@ -501,7 +511,7 @@
         padding-left: 30px;
         padding-bottom: 20px;
     }
-        
+
     #profexp1 {
         font-size: 21px;
         display: block;
@@ -509,17 +519,20 @@
         padding-left: 75px;
         font-weight: bold;
     }
+
     #profexpe1 {
         font-size: 17px;
         padding-top: 10px;
         padding-left: 75px;
     }
+
     #profexper1 {
         padding-top: 10px;
         padding-left: 91px;
         padding-bottom: 20px;
         font-size: 14px;
     }
+
     #skill {
         font-size: 22px;
         font-weight: bold;
@@ -528,7 +541,7 @@
         padding-left: 75px;
         padding-bottom: 10px;
     }
-    
+
     #skill1 {
         padding-top: 10px;
         padding-left: 93px;
@@ -537,12 +550,13 @@
         font-weight: 400;
         padding-bottom: 70px;
     }
-    
+
     #right {
         width: 50vw;
         height: auto;
         background-color: var(--secondry-color);
     }
+
     #edu {
         font-size: 25px;
         font-weight: bold;
@@ -550,6 +564,7 @@
         padding-left: 40px;
         padding-bottom: 20px;
     }
+
     #edu1 {
         font-size: 16px;
         padding-top: 10px;
@@ -558,6 +573,7 @@
         list-style-type: none;
         padding-bottom: 15px;
     }
+
     #certificate {
         font-size: 25px;
         font-weight: bold;
@@ -565,6 +581,7 @@
         padding-left: 40px;
         padding-bottom: 20px;
     }
+
     #certificate1 {
         font-size: 16px;
         padding-top: 10px;
@@ -573,6 +590,9 @@
         list-style-type: none;
         padding-bottom: 15px;
     }
+
+    /* done */
+
     #ref {
         font-size: 25px;
         font-weight: bold;
@@ -583,6 +603,209 @@
 
     #ref1 {
         font-size: 16px;
+        padding-top: 10px;
+        padding-left: 75px;
+        font-weight: 400;
+        list-style-type: none;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    :root {
+        --primary-color: #f8f8f8;
+        --secondry-color: #ededed;
+        --border: solid 3px rgba(89, 88, 88, 0.56);
+    }
+
+    #cvtem {
+        background-color: #597b6a;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cvtemp {
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #top {
+        height: auto;
+        background: var(--primary-color);
+        border-bottom: var(--border);
+    }
+
+    #perinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #picname {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #perinfo img {
+        width: 135px;
+        margin: 35px;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+
+    #picname span {
+        font-weight: bolder;
+        font-size: 30px;
+        margin-left: -35px;
+        padding-bottom: 15px;
+    }
+
+    #jobrole {
+        display: flex;
+    }
+
+    #role {
+        font-weight: bolder;
+        font-size: 27px;
+        margin-left: 80px;
+        color: var(--text-primary);
+    }
+
+    #role1 {
+        font-size: 18px;
+        margin-left: 80px;
+    }
+
+    #cvsum {
+        font-weight: bolder;
+        font-size: 27px;
+        margin-left: 80px;
+        color: var(--text-primary);
+        margin-top: 30px;
+    }
+
+    #cvsum1 {
+        font-size: 18px;
+        margin-left: 80px;
+        padding-bottom: 15px;
+    }
+
+    #content {
+        display: flex;
+    }
+
+    #left {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        background-color: var(--secondry-color);
+        border-right: var(--border);
+    }
+
+    #proexp1 {
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-left: 55px;
+        padding-bottom: 20px;
+    }
+
+    #profexp1 {
+        font-size: 22px;
+        display: block;
+        padding-top: 10px;
+        padding-left: 75px;
+        font-weight: bold;
+    }
+
+    #profexpe1 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 75px;
+    }
+
+    #profexper1 {
+        padding-top: 10px;
+        padding-left: 91px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    #skill {
+        font-size: 23px;
+        font-weight: bold;
+        display: block;
+        padding-top: 30px;
+        padding-left: 75px;
+        padding-bottom: 10px;
+    }
+
+    #skill1 {
+        padding-top: 10px;
+        padding-left: 93px;
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 70px;
+    }
+
+    #right {
+        width: 50vw;
+        height: auto;
+        background-color: var(--secondry-color);
+    }
+
+    #edu {
+        font-size: 28px;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    #edu1 {
+        font-size: 17px;
+        padding-top: 10px;
+        padding-left: 75px;
+        font-weight: 400;
+        list-style-type: none;
+        padding-bottom: 15px;
+    }
+
+    #certificate {
+        font-size: 28px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    #certificate1 {
+        font-size: 17px;
+        padding-top: 10px;
+        padding-left: 75px;
+        font-weight: 400;
+        list-style-type: none;
+        padding-bottom: 15px;
+    }
+
+    #ref {
+        font-size: 28px;
+        font-weight: bold;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    #ref1 {
+        font-size: 17px;
         padding-top: 10px;
         padding-left: 75px;
         font-weight: 400;
